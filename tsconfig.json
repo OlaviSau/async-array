@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "lib": ["es2018"],
+    "baseUrl": "./",
+    "sourceMap": true,
+    "declaration": true,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "noImplicitReturns": true,
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "allowUnreachableCode": false,
+    "noUnusedLocals": true,
+    "noFallthroughCasesInSwitch": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "declarationDir": "lib/types",
+    "outDir": "lib",
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "include": [
+    "src"
+  ]
+}

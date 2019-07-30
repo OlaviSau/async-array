@@ -1,0 +1,22 @@
+{
+  "name": "@bunne/async-array",
+  "version": "0.0.2",
+  "description": "Asynchronous array implementation",
+  "main": "lib/index.js",
+  "types": "lib/types/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "async",
+    "array"
+  ],
+  "author": "Olavi Sau",
+  "license": "MIT",
+  "dependencies": {
+    "tslib": "^1.10.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.5.3"
+  }
+}
